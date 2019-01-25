@@ -31,17 +31,17 @@ const person = {
 
 // Principle 3
 
-const color = {
-	name: 'Red'
-}
+// const color = {
+// 	name: 'Red'
+// }
 
-const colorArray = ['red', 'black', 'blue', 'green'];
+// const colorArray = ['red', 'black', 'blue', 'green'];
 
-function colors(array) {
-	console.log(`This color is ${this.name} and the others are ${array}`)
-}
+// function colors(array) {
+// 	console.log(`This color is ${this.name} and the others are ${array}`)
+// }
 
-colors.call(color, colorArray);
+// colors.call(color, colorArray);
 
 // Principle 4
 
